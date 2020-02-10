@@ -1,0 +1,21 @@
+.header,
+.header_fon
+    position: relative
+    background: #000 url('../img/bg.jpg') top center no-repeat
+    background-size: cover
+    height: 100vh
+    & .menu
+        position: absolute
+        top: 0
+        right: 0
+
+        padding: 20px 40px
+        & .link
+            margin: 0 15px
+
+            color: $mainFontColor
+            font-weight: 600
+            transition: 500ms ease
+            &:hover
+                color: $hover-link
+                transition: 500ms ease
